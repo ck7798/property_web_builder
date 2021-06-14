@@ -4,7 +4,10 @@ source 'https://rubygems.org'
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
-
+gem 'pwb', git: 'https://github.com/etewiah/property_web_builder', branch: 'master'
+gem 'globalize', git: 'https://github.com/globalize/globalize'
+gem 'paloma', github: 'fredngo/paloma'
+gem 'pg'
 gem 'rails', '~> 5.2'
 # Declare any dependencies that are still in development here instead of in
 # your gemspec. These might include edge Rails or gems from your path or
